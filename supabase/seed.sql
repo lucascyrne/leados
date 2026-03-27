@@ -1,0 +1,1 @@
+-- Reservado para seeds locais (`supabase db reset`). Sem dados na fase 2.
