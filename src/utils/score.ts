@@ -4,7 +4,7 @@ import type { ClassificacaoResult } from '../types/lead'
  * Score mínimo para seguir ao handoff oficial do parceiro.
  * Mantido como constante para facilitar calibração de conversão.
  */
-export const PARTNER_HANDOFF_MIN_SCORE = 70
+export const PARTNER_HANDOFF_MIN_SCORE = 60;
 
 function clamp(n: number, min: number, max: number): number {
   return Math.min(max, Math.max(min, n))
